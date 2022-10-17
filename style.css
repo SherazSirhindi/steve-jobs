@@ -1,0 +1,40 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+color: white;
+text-align: center;
+}
+.whitebg {
+max-width: 100%;
+height: 500px;
+background-color: white;
+margin-top: 150px;
+display: flex;
+}
+.text {
+font-size: 20px;
+color: black;
+
+}
+
+.left{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 50%;
+}
+.right{
+width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: right;
+}
+
+
+.fa-icon{
+
+margin-top: 50px;
+}
